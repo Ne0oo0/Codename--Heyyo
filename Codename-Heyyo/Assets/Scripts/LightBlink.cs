@@ -11,6 +11,7 @@ public class LightBlink : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animation>();
         StartCoroutine(LightBlinkTime());
+        Debug.Log("testing");
 
     }
 
